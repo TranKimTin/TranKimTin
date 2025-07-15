@@ -7,3 +7,5 @@
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TranKimTin&layout=compact&card_height=200" width="53%" />
   </a>
 </p>
+
+[![BotFather](https://github-readme-stats.vercel.app/api/pin/?username=TranKimTin&repo=BotFather)](https://github.com/TranKimTin/BotFather)
