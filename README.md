@@ -1,4 +1,4 @@
-# statistics by https://github.com/anuraghazra/github-readme-stats
+<!-- statistics by https://github.com/anuraghazra/github-readme-stats -->
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TranKimTin&layout=compact)](https://github.com/TranKimTin)
 
