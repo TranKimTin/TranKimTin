@@ -1,10 +1,5 @@
-<!-- Copy-paste in your Readme.md file -->
+# statistics by https://github.com/anuraghazra/github-readme-stats
 
-<a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=30171982" target="_blank" style="display: block" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=30171982&image_size=auto&color_scheme=dark" width="771" height="auto">
-    <img alt="Dashboard stats of @TranKimTin" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=30171982&image_size=auto&color_scheme=light" width="771" height="auto">
-  </picture>
-</a>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TranKimTin&layout=compact)](https://github.com/TranKimTin)
 
-<!-- Made with [OSS Insight](https://ossinsight.io/) -->
+[![Tin's GitHub stats](https://github-readme-stats.vercel.app/api?username=TranKimTin&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged&rank_icon=percentile)](https://github.com/TranKimTin)
