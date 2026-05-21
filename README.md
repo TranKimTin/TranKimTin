@@ -21,18 +21,17 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
 
-MyBotMaker is my personal full-stack crypto trading bot platform for building, backtesting, and managing automated trading strategies.
+MyBotMaker is my personal full-stack crypto trading bot platform for building, backtesting, and managing automated crypto trading strategies.
 
-**Live website:** https://mybotmaker.com/  
-**Repository:** https://github.com/TranKimTin/MyBotMaker
+**Live:** [mybotmaker.com](https://mybotmaker.com/) · **Code:** [github.com/TranKimTin/MyBotMaker](https://github.com/TranKimTin/MyBotMaker)
 
 | Area | What I built |
 | --- | --- |
 | Trading engine | High-performance C++17 engine for strategy evaluation, indicators, market data, and order execution |
-| Backend | Node.js/Express API with TypeScript, Socket.IO, MySQL, Redis, auth, bot management, and admin tools |
+| Backend | Node.js/Express API with TypeScript, Socket.IO, MySQL, Redis, authentication, bot management, and admin tools |
 | Frontend | Vue 3 dashboard for visual bot configuration, backtesting, order history, charts, and account management |
 | Strategy system | Custom expression DSL using ANTLR4, shared across live trading, backtesting, and calculator APIs |
-| Backtesting | Historical replay engine with PnL, drawdown, win rate, order markers, and WASM/browser execution support |
+| Backtesting | Server and browser-based WASM backtesting with PnL, drawdown, win rate, and order markers |
 
 ### Highlights
 
@@ -40,4 +39,4 @@ MyBotMaker is my personal full-stack crypto trading bot platform for building, b
 - Live trading and deterministic historical backtesting
 - Binance Futures, Bybit, OKX, WebSocket market data, and Telegram notifications
 - Technical indicator expressions, calculator API, and chart overlays
-- Demo trading, real exchange orders, shared bot history, premium plans, support tickets, and admin management
+- Demo trading, real-order integration, shared bot history, premium tiers, support tickets, and admin tools
