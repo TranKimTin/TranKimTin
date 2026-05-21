@@ -10,27 +10,36 @@
 
 ---
 
+---
+
 ## Featured Personal Project: MyBotMaker
 
-MyBotMaker is my personal full-stack crypto trading bot project, built to design, backtest, and manage automated trading strategies.
+[![Website](https://img.shields.io/badge/Live_Website-mybotmaker.com-2563eb?logo=googlechrome&logoColor=white)](https://mybotmaker.com/)
+[![Repository](https://img.shields.io/badge/GitHub-MyBotMaker-181717?logo=github)](https://github.com/TranKimTin/MyBotMaker)
+![C++](https://img.shields.io/badge/C++17-00599C?logo=cplusplus)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue_3-42b883?logo=vuedotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
 
-The system combines a high-performance C++ trading engine with a Node.js/Express backend and a Vue 3 dashboard. It supports visual strategy building with graph-based bot configuration, technical-indicator expressions, historical backtesting, order history visualization, Telegram notifications, and integration with crypto exchanges such as Binance, Bybit, and OKX.
+MyBotMaker is my personal full-stack crypto trading bot platform for building, backtesting, and managing automated trading strategies.
 
-### Tech Stack
+**Live website:** https://mybotmaker.com/  
+**Repository:** https://github.com/TranKimTin/MyBotMaker
 
-- C++17, ANTLR4, Boost, TBB, spdlog
-- Node.js, Express, TypeScript, Socket.IO
-- Vue 3, PrimeVue, TailwindCSS, Cytoscape, Chart.js
-- MySQL, Redis
-- WebSocket market data, WASM backtesting, Telegram bot integration
+| Area | What I built |
+| --- | --- |
+| Trading engine | High-performance C++17 engine for strategy evaluation, indicators, market data, and order execution |
+| Backend | Node.js/Express API with TypeScript, Socket.IO, MySQL, Redis, auth, bot management, and admin tools |
+| Frontend | Vue 3 dashboard for visual bot configuration, backtesting, order history, charts, and account management |
+| Strategy system | Custom expression DSL using ANTLR4, shared across live trading, backtesting, and calculator APIs |
+| Backtesting | Historical replay engine with PnL, drawdown, win rate, order markers, and WASM/browser execution support |
 
 ### Highlights
 
-- Built as a personal project to explore automated trading systems, real-time data processing, and strategy backtesting
-- Created a custom expression DSL for trading conditions and technical indicators
-- Implemented live trading and deterministic historical backtesting
-- Designed a visual strategy graph editor for creating bot logic without writing code
-- Added order tracking, PnL statistics, drawdown, win rate, and chart markers
-- Built support for demo trading, real exchange orders, shared bot history, premium plans, and admin management
-
-Repository: https://github.com/TranKimTin/MyBotMaker
+- Visual strategy graph editor for creating bot logic without writing code
+- Live trading and deterministic historical backtesting
+- Binance Futures, Bybit, OKX, WebSocket market data, and Telegram notifications
+- Technical indicator expressions, calculator API, and chart overlays
+- Demo trading, real exchange orders, shared bot history, premium plans, support tickets, and admin management
