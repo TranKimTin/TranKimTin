@@ -10,8 +10,6 @@
 
 ---
 
----
-
 ## Featured Personal Project: MyBotMaker
 
 [![Website](https://img.shields.io/badge/Live_Website-mybotmaker.com-2563eb?logo=googlechrome&logoColor=white)](https://mybotmaker.com/)
