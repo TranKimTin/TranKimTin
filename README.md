@@ -12,31 +12,41 @@
 
 ## Featured Personal Project: MyBotMaker
 
-[![Website](https://img.shields.io/badge/Live_Website-mybotmaker.com-2563eb?logo=googlechrome&logoColor=white)](https://mybotmaker.com/)
-[![Repository](https://img.shields.io/badge/GitHub-MyBotMaker-181717?logo=github)](https://github.com/TranKimTin/MyBotMaker)
-![C++](https://img.shields.io/badge/C++17-00599C?logo=cplusplus)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue_3-42b883?logo=vuedotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+[![Live Website](https://img.shields.io/badge/Live_Website-mybotmaker.com-2563eb?style=flat-square)](https://mybotmaker.com)
+[![GitHub](https://img.shields.io/badge/GitHub-MyBotMaker-181717?style=flat-square&logo=github)](https://github.com/TranKimTin/MyBotMaker)
+![C++17](https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=cplusplus)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Vue 3](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![ANTLR4](https://img.shields.io/badge/ANTLR4-EA2C2C?style=flat-square)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-MyBotMaker is my personal full-stack crypto trading bot platform for building, backtesting, and managing automated crypto trading strategies.
+MyBotMaker is my personal full-stack crypto trading bot platform for building,
+backtesting, replaying, and running automated trading strategies — no coding required.
 
-**Live:** [mybotmaker.com](https://mybotmaker.com/) · **Code:** [github.com/TranKimTin/MyBotMaker](https://github.com/TranKimTin/MyBotMaker)
+**Live:** [mybotmaker.com](https://mybotmaker.com) · **Code:** [github.com/TranKimTin/MyBotMaker](https://github.com/TranKimTin/MyBotMaker)
 
 | Area | What I built |
-| --- | --- |
-| Trading engine | High-performance C++17 engine for strategy evaluation, indicators, market data, and order execution |
-| Backend | Node.js/Express API with TypeScript, Socket.IO, MySQL, Redis, authentication, bot management, and admin tools |
-| Frontend | Vue 3 dashboard for visual bot configuration, backtesting, order history, charts, and account management |
-| Strategy system | Custom expression DSL using ANTLR4, shared across live trading, backtesting, and calculator APIs |
-| Backtesting | Server and browser-based WASM backtesting with PnL, drawdown, win rate, and order markers |
+|------|--------------|
+| **Trading engine** | High-performance C++17 engine for strategy evaluation, indicator computation, multi-timeframe aggregation (1m→1w), and real order execution, optimized with a thread pool, memory pools and lock-minimized snapshots |
+| **Strategy system** | Visual strategy-graph editor plus a custom expression DSL built on a single ANTLR4 grammar shared (codegen) across the C++ engine, Node backend and the browser — compiled to bytecode and run on a stack machine |
+| **Backtesting & replay** | Deterministic historical backtesting on both server and in-browser **WebAssembly**, with PnL, drawdown, win-rate and blow-up detection; an order-replay/playback mode renders entries/TP/SL with live indicators recomputed via a WASM worker |
+| **Charting** | Lightweight charts with indicator overlays, order markers, and TradingView-style drawing tools |
+| **AI assistant** | Generates a bot config preview from a natural-language strategy description (LLM-backed, with heuristic fallback and per-account daily quota) |
+| **Backend** | Node.js/Express + TypeScript + Socket.IO API: auth (JWT + Google OAuth + Turnstile), bot management, premium billing, support tickets, admin tools |
+| **Market data** | A live recorder persists Binance spot/futures OHLCV into compact `.bin` files so the engine warm-starts from disk instead of hammering REST APIs; self-healing gap repair |
+| **Frontend** | Vue 3 dashboard (PrimeVue + TailwindCSS + Cytoscape) for bot config, backtesting, charts, order history and account management, fully bilingual-ready with light/dark themes |
 
 ### Highlights
 
-- Visual strategy graph editor for creating bot logic without writing code
-- Live trading and deterministic historical backtesting
-- Binance Futures, Bybit, OKX, WebSocket market data, and Telegram notifications
-- Technical indicator expressions, calculator API, and chart overlays
-- Demo trading, real-order integration, shared bot history, premium tiers, support tickets, and admin tools
+- Visual strategy-graph editor to build bot logic without writing code
+- Generate a starter bot from plain language with an AI assistant
+- Deterministic backtesting + order replay, in the browser via WebAssembly
+- TradingView-style chart drawing tools and technical-indicator overlays
+- Binance Futures, Bybit, OKX live WebSocket market data and Telegram notifications
+- Google sign-in, Cloudflare Turnstile, scrypt password hashing, refresh-token sessions
+- Bot sharing (public or per-email), bot templates and in-app guided tours
+- Premium tiers (USDT-native), tier-based limits, support tickets, and admin tooling
+
